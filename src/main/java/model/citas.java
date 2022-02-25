@@ -1,6 +1,6 @@
 package model;
 
-public class registro {
+public class citas {
 
     public Integer getTipoId();
     public String getNombreTipo() ;
