@@ -1,27 +1,23 @@
-package model;
+// model;
 
-@Entity
-@Table(name = "servicio")
+//@Entity
+//@Table(name = "servicio")
 
-public class servicio {
-
+/*public class servicio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int productoId;
+    private int idServicio;
 
-    @Column(name = "nombre")
-    private String nombre;
+    @Column(name = "Aseo")
+    private String Aseo;
 
-    @Column(name = "precio")
-    private double precio;
+    @Column(name = "Vacunacion")
+    private double vacunacion;
 
-    @Column(name = "existencia")
-    private int existencia;
+    @Column(name = "Fecha")
+    private int Fecha;
 
-    @Column(name = "tipoId")
-    private int tipoId;
-
-    public Producto() {
+    public servicio() {
     }
 
     public int getTipoId() {
@@ -32,19 +28,19 @@ public class servicio {
         this.tipoId = tipoId;
     }
 
-    public Producto(int productoId, String nombre, double precio, int existencia) {
-        this.productoId = productoId;
+    public servicio(int ServicioId, String nombre, String servicio, String vacuna) {
+        this.ServicioId = ServicioId;
         this.nombre = nombre;
         this.precio = precio;
         this.existencia = existencia;
     }
 
-    public int getProductoId() {
-        return productoId;
+    public int getServicioId() {
+        return servicioId;
     }
 
-    public void setProductoId(int productoId) {
-        this.productoId = productoId;
+    public void setServicioId(int servicioId) {
+        this.servicioId = servicioId;
     }
 
     public String getNombre() {
@@ -55,21 +51,21 @@ public class servicio {
         this.nombre = nombre;
     }
 
-    public double getPrecio() {
-        return precio;
+    public double getVacuna() {
+        return vacuna;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setVacuna(double Vacuna) {
+        this.vacuna = vacuna;
     }
 
-    public int getExistencia() {
-        return existencia;
+    public int getTipoid() {
+        return tipoid;
     }
 
-    public void setExistencia(int existencia) {
-        this.existencia = existencia;
+    public void setTipoid(int tipoid) {
+        this.tipoId = tipoid;
     }
 
 
-}
+}*/
