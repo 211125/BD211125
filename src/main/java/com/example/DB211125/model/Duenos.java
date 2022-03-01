@@ -15,13 +15,7 @@ public class Duenos {
     private String direccion;
     private Integer celular;
 
-    public void setCelular(Integer celular){
-        this.celular = celular;
-    }
 
-    public Integer getCelular(){
-        return celular;
-    }
 
     public Long getId() {
         return id;
@@ -45,6 +39,14 @@ public class Duenos {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public Integer getCelular(){
+        return celular;
+    }
+
+    public void setCelular(Integer celular){
+        this.celular = celular;
     }
 
 }
