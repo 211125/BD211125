@@ -1,5 +1,8 @@
 # BD211125
 veterinaria
-211119 Arisel Fernández cañaveral 
-211125 Hernández Gutiérrez Osvaldo Angel
-203140 Edrei Alvarez Hernandez
+<p>211119 Arisel Fernández cañaveral </p>
+<p>211125 Hernández Gutiérrez Osvaldo Angel</p>
+<p>203140 Edrei Alvarez Hernandez</p>
+
+
+
