@@ -11,7 +11,7 @@ public class Mascotas {
     @Column(unique = true, nullable = false)
     private Long id;
     private String tipoDeMascota;
-    private String Nombre;
+    private String nombre;
     private String fechaDeIngreso;
     private String motivoDeVisita;
     private String dueno;
