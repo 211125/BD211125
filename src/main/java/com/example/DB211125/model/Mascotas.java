@@ -33,15 +33,13 @@ public class Mascotas {
         this.tipoDeMascota = tipoDeMascota;
     }
 
-    // error aca prueben si jala antes de subir!
-
-   /* public String getNombre() {
+     public String getNombre() {
         return nombre;
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }*/
+    }
 
     public String getFechaDeIngreso() {
         return fechaDeIngreso;
