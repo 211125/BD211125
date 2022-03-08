@@ -20,7 +20,7 @@ public class MascotasController {
         return mascotasServices.obtenerMascotas();
     }
 
-    // aca podemos guardar los duenos en este caso agregamos con el postman
+    // aca podemos guardar las mascotas en este caso agregamos con el postman
     @PostMapping()
     public Mascotas guardarMascotas(@RequestBody Mascotas mascotas) {
         return this.mascotasServices.guardarMascotas(mascotas);
