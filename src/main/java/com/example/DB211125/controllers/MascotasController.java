@@ -1,4 +1,4 @@
-/*package com.example.DB211125.controllers;
+package com.example.DB211125.controllers;
 
 import com.example.DB211125.model.Mascotas;
 import com.example.DB211125.services.MascotasServices;
@@ -16,10 +16,9 @@ public class MascotasController {
 
     // Aca podemos ver la lista de las mascotas
     @GetMapping()
-   // public ArrayList<ListMascotas> obtenerMascotas() {
-      //  return mascotasServices.obtenerMascotas();
-   // }
-
+    public ArrayList<ListMascotas> obtenerMascotas() {
+    return mascotasServices.obtenerMascotas();
+    }
 
 
     // aca podemos guardar las mascotas en este caso agregamos con el postman
@@ -45,4 +44,3 @@ public class MascotasController {
         }
     }
 }
-*/
