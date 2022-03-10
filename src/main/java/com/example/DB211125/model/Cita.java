@@ -4,16 +4,17 @@ package com.example.DB211125.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "cita")
+@Table(name = "citas")
 public class Cita {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
     private Long id;
+    private String nombreDeMascota;
     private String servicioRequerido;
     private String fecha;
     private String  hora;
-
+    private int  IdMascota;
 
 
     public Long getId() {
@@ -48,5 +49,19 @@ public class Cita {
         this.hora = hora;
     }
 
+    public String getNombreDeMascota() {
+        return nombreDeMascota;
+    }
 
+    public void setNombreDeMascota(String nombreDeMascota) {
+        this.nombreDeMascota= nombreDeMascota;
+    }
+
+    public int getIdMascota() {
+        return IdMascota;
+    }
+
+    public void setIdMascota(int IdMascota) {
+        this.IdMascota= IdMascota;
+    }
 }

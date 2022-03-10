@@ -1,4 +1,4 @@
-package com.example.DB211125.services;
+/*package com.example.DB211125.services;
 
 import com.example.DB211125.model.Mascotas;
 import com.example.DB211125.repository.MascotasRepository;
@@ -12,7 +12,7 @@ import java.util.Optional;
 public class MascotasServices {
 
     @Autowired
-    MacotasRepository mascotasRepository;
+   // MacotasRepository mascotasRepository;
 
     // Mostrar las Mascotas En la base
 
@@ -42,4 +42,4 @@ public class MascotasServices {
         }
     }
 
-}
+}*/
